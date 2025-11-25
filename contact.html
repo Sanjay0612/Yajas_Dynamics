@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Yajas Dynamic</title>
+    <link rel="icon" type="image/jpeg" href="favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="logo.png" alt="Yajas Dynamic Logo" class="logo-img">
+            <span class="company-name">Yajas Dynamic</span>
+        </div>
+
+        <!-- Mobile Menu Toggle Button (shown only on mobile) -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+            <span id="menuIcon">☰</span>
+        </button>
+
+        <!-- Navigation (hidden on mobile, shown on desktop) -->
+        <nav class="nav" id="navMenu">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="applications.html" class="nav-link">Applications</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="index.html">Home</a> / <span>Contact Us</span>
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <div class="container">
+            <h1>Get In Touch With Us</h1>
+            <p class="section-subtitle">We'd love to hear from you. Send us your inquiry and we'll respond promptly.</p>
+
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <h2>Send us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <p id="formMessage" class="form-message" style="display:none;"></p>
+                </div>
+
+                <div class="contact-info-wrapper">
+                    <h2>Contact Information</h2>
+
+                    <div class="contact-info-block">
+                        <h3>📍 Address</h3>
+                        <p>Bangalore, Karnataka, India</p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>📞 Phone</h3>
+                        <p>+91-XXXX-XXXX-XX</p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>✉️ Email</h3>
+                        <p><a href="mailto:info@yayinautomation.com">info@yayinautomation.com</a></p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>🕐 Business Hours</h3>
+                        <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM</p>
+                        <p><strong>Saturday:</strong> 9:00 AM - 2:00 PM</p>
+                        <p><strong>Sunday:</strong> Closed</p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h3>💬 Connect With Us</h3>
+                        <p>WhatsApp: +91-XXXX-XXXX-XX</p>
+                        <p>WeChat: YajasDynamic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="map-section">
+    <div class="container">
+        <!-- Section Title -->
+        <h2>Our Location in Bangalore</h2>
+        
+        <!-- Responsive Map Container -->
+        <div class="map-placeholder">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.0607819624565!2d77.5952721!3d13.095334399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae185a6601d077%3A0xe9530f3cb5522fe1!2sYayin%20Automation!5e0!3m2!1sen!2sin!4v1762936771240!5m2!1sen!2sin" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <!-- Optional: Additional Location Information -->
+        <div class="map-info">
+            <div class="map-info-item">
+                <h3>📍 Address</h3>
+                <p>Bangalore, Karnataka, India</p>
+            </div>
+            <div class="map-info-item">
+                <h3>🕐 Business Hours</h3>
+                <p>
+                    Mon-Fri: 9:00 AM - 6:00 PM<br>
+                    Sat: 9:00 AM - 2:00 PM<br>
+                    Sun: Closed
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Yajas Dynamic</h4>
+                    <p>Professional Industrial Valves Manufacturer</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="applications.html">Applications</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Bangalore, Karnataka, India</p>
+                    <p>Email: info@yayinautomation.com</p>
+                    <p>Phone: +91-XXXX-XXXX-XX</p>
+                    <p>Mon-Fri 9AM-6PM, Sat 9AM-2PM</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Yajas Dynamic. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formMessage = document.getElementById('formMessage');
+            formMessage.textContent = 'Thank you for your message! We will contact you shortly.';
+            formMessage.style.display = 'block';
+            formMessage.style.color = 'green';
+            this.reset();
+            setTimeout(() => {
+                formMessage.style.display = 'none';
+            }, 5000);
+        });
+    </script>
+<script>
+// Mobile Menu Toggle
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+    const menuIcon = document.getElementById('menuIcon');
+    
+    if (menuToggle && navMenu) {
+        // Toggle menu on button click
+        menuToggle.addEventListener('click', function() {
+            navMenu.classList.toggle('active');
+            
+            // Update button state
+            const isActive = navMenu.classList.contains('active');
+            menuToggle.setAttribute('aria-expanded', isActive);
+            
+            // Change icon
+            menuIcon.textContent = isActive ? '✕' : '☰';
+        });
+        
+        // Close menu when a link is clicked
+        const navLinks = navMenu.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navMenu.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuIcon.textContent = '☰';
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const isClickInsideHeader = event.target.closest('.header');
+            if (!isClickInsideHeader && navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                menuToggle.setAttribute('aria-expanded', 'false');
+                menuIcon.textContent = '☰';
+            }
+        });
+    }
+});
+</script>
+</body>
+</html>
